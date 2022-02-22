@@ -1,3 +1,21 @@
+# react-router-dom v5
+```bash
+npm i react-router-dom
+```
+## qs 라이브러리
+location.search로 현재 url의 쿼리 스트링을 가져올 때 물음표를 지워준다.
+```bash
+npm i qs
+```
+```js
+import qs from 'qs';
+```
+```js
+const query = qs.parse(location.search, {
+    ignoreQueryPrefix:true,
+})
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
