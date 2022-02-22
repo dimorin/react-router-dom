@@ -2,6 +2,7 @@
 ```bash
 npm i react-router-dom
 ```
+[react-router-dom v5 -> v6](https://velog.io/@yoosion030/react-router-dom-v6);
 ## qs 라이브러리
 location.search로 현재 url의 쿼리 스트링을 가져올 때 물음표를 지워준다.
 ```bash
